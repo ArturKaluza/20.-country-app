@@ -1,5 +1,5 @@
 #root {
-    background: #eee;
+    background: #ddd;
     height: 100vh;
 }
 
@@ -92,6 +92,7 @@ h2 {
     width: 26%;
     height: 300px;
     margin-top: 50px;
+    text-align: center;
 }
 
 .country-logo-wrapper {
@@ -100,6 +101,21 @@ h2 {
 }
 
 .country-logo {
-    max-width: 100%;
-    max-height: 100%;
+    width: 100%;
+    height: 100%;
 }
+
+.btn-del {
+    width: 140px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid black;
+    border-radius: 4px;
+    background: #AA3939;
+    color: #fff;
+    transition: .3s ease;
+  }
+  
+  .btn-del:hover {
+    background: #7E0000
+  }
